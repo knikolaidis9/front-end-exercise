@@ -1,0 +1,245 @@
+.image {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.button-container {
+  position: relative;
+  display: inline-block;
+  bottom: 90%;
+  margin: 0 0 0 400px;
+  transform: translate(-50%, -50%);
+}
+
+.nav-text {
+  color: white;
+  font-size: 25px;
+}
+
+.nav-text:hover {
+  color: lightblue;
+}
+
+.btn-group .btn-secondary {
+  background-color: rgba(45, 89, 126, 0.644);
+  color: azure;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-group .btn-secondary:hover {
+  background-color: lightblue;
+  color: #2c7feba6;
+}
+
+.title {
+  position: relative;
+  color: white;
+}
+
+.title1 {
+  position: relative;
+  bottom: 73%;
+  left: 8%;
+  margin-top: 120px;
+  color: white;
+  font-size: 50px;
+}
+
+.title2 {
+  position: relative;
+  bottom: 83%;
+  left: 8%;
+  margin-top: 100px;
+  color: white;
+  font-size: 30px;
+}
+
+.width {
+  position: absolute;
+  top: 7%;
+  left: 80%;
+  bottom: 30%;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: white;
+  border-radius: 5%;
+}
+.transparent {
+  background-color: transparent;
+}
+
+.transparent:hover {
+  background-color: transparent;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+card::hover {
+  color: antiquewhite;
+}
+
+.card-title {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  color: darkgray;
+  font-size: 1rem;
+}
+
+.card-img-top {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+.featured-icon {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 50px;
+  background-color: whitesmoke;
+}
+
+.container {
+  margin: auto;
+}
+
+.header {
+  text-align: left;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 0.9em;
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+}
+
+.list {
+  margin-right: 20px;
+}
+
+.item {
+  background: white;
+  margin-bottom: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.ckeck {
+  color: #4caf50;
+  font-weight: bold;
+  position: absolute;
+  left: -50px;
+  top: 20px;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.showcase img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.formBackground {
+  background-color: rgba(211, 211, 211, 0.959);
+}
+
+.contactBody {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+
+#contact-form {
+  background: white;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+#contact-form h2 {
+  margin-top: 0;
+}
+
+p {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+p span {
+  display: block;
+  text-align: right;
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  width: calc(100% - 22px); /* Adjust width as per padding and border */
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.error-message {
+  color: red;
+  display: none;
+}
